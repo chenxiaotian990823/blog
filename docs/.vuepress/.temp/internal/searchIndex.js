@@ -22,21 +22,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "面试",
-    "headers": [
-      {
-        "level": 2,
-        "title": "导航",
-        "slug": "导航",
-        "link": "#导航",
-        "children": []
-      }
-    ],
-    "path": "/interview/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "少凡",
     "headers": [
       {
@@ -59,9 +44,17 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "currying柯里化函数",
-    "headers": [],
-    "path": "/examples/curriedFunc/",
+    "title": "面试",
+    "headers": [
+      {
+        "level": 2,
+        "title": "导航",
+        "slug": "导航",
+        "link": "#导航",
+        "children": []
+      }
+    ],
+    "path": "/interview/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -102,6 +95,13 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "currying柯里化函数",
+    "headers": [],
+    "path": "/examples/curriedFunc/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "计算索引处百分比",
     "headers": [],
     "path": "/examples/getPercentageAtIndex/",
@@ -116,13 +116,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "时间转换",
-    "headers": [],
-    "path": "/examples/timeConversion/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "流式应答",
     "headers": [],
     "path": "/examples/streamResp/",
@@ -130,60 +123,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Vue中组件和插件有什么区别？",
-    "headers": [
-      {
-        "level": 2,
-        "title": "组件是什么",
-        "slug": "组件是什么",
-        "link": "#组件是什么",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "插件是什么",
-        "slug": "插件是什么",
-        "link": "#插件是什么",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "两者的区别",
-        "slug": "两者的区别",
-        "link": "#两者的区别",
-        "children": [
-          {
-            "level": 3,
-            "title": "编写形式",
-            "slug": "编写形式",
-            "link": "#编写形式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "注册形式",
-            "slug": "注册形式",
-            "link": "#注册形式",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "使用场景",
-        "slug": "使用场景",
-        "link": "#使用场景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考文献",
-        "slug": "参考文献",
-        "link": "#参考文献",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/compplug/",
+    "title": "时间转换",
+    "headers": [],
+    "path": "/examples/timeConversion/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -264,6 +206,64 @@ export const searchIndex = [
       }
     ],
     "path": "/interview/vue/instanceMount/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Vue中组件和插件有什么区别？",
+    "headers": [
+      {
+        "level": 2,
+        "title": "组件是什么",
+        "slug": "组件是什么",
+        "link": "#组件是什么",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "插件是什么",
+        "slug": "插件是什么",
+        "link": "#插件是什么",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "两者的区别",
+        "slug": "两者的区别",
+        "link": "#两者的区别",
+        "children": [
+          {
+            "level": 3,
+            "title": "编写形式",
+            "slug": "编写形式",
+            "link": "#编写形式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "注册形式",
+            "slug": "注册形式",
+            "link": "#注册形式",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "使用场景",
+        "slug": "使用场景",
+        "link": "#使用场景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/compplug/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -509,6 +509,42 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Vue中v-show和v-if怎么理解",
+    "headers": [
+      {
+        "level": 2,
+        "title": "v-show与v-if的共同点",
+        "slug": "v-show与v-if的共同点",
+        "link": "#v-show与v-if的共同点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "v-show与v-if的区别",
+        "slug": "v-show与v-if的区别",
+        "link": "#v-show与v-if的区别",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "v-show与v-if的使用场景",
+        "slug": "v-show与v-if的使用场景",
+        "link": "#v-show与v-if的使用场景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/vshowvif/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "动态给vue的data添加一个新的属性时会发生什么？怎样解决？",
     "headers": [
       {
@@ -567,42 +603,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Vue中v-show和v-if怎么理解",
-    "headers": [
-      {
-        "level": 2,
-        "title": "v-show与v-if的共同点",
-        "slug": "v-show与v-if的共同点",
-        "link": "#v-show与v-if的共同点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "v-show与v-if的区别",
-        "slug": "v-show与v-if的区别",
-        "link": "#v-show与v-if的区别",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "v-show与v-if的使用场景",
-        "slug": "v-show与v-if的使用场景",
-        "link": "#v-show与v-if的使用场景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考文献",
-        "slug": "参考文献",
-        "link": "#参考文献",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/vshowvif/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -610,16 +610,3 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}
