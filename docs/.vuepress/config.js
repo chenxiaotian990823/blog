@@ -34,7 +34,7 @@ export default defineUserConfig({
             '/examples/curriedFunc/index.md',
             '/examples/getPercentageAtIndex/index.md',
             '/examples/timeConversion/index.md',
-            '/examples/bindClass/index.md',
+            '/examples/bindClass/index.md'
           ],
         },
       ],
@@ -54,11 +54,33 @@ export default defineUserConfig({
             '/interview/vue/vueset/index.md',
             '/interview/vue/compplug/index.md',
             '/interview/vue/compConmute/index.md',
+            '/interview/vue/twowayBind/index.md',
+            '/interview/vue/nextTick/index.md',
+            '/interview/vue/mixin/index.md',
+            '/interview/vue/slot/index.md',
+            '/interview/vue/observable/index.md',
+            '/interview/vue/vuekey/index.md',
+            '/interview/vue/keepalive/index.md',
+            '/interview/vue/modifiers/index.md',
+            '/interview/vue/directives/index.md',
+            '/interview/vue/filters/index.md',
+            '/interview/vue/virtualDOM/index.md',
+            '/interview/vue/diff/index.md',
+            '/interview/vue/axios/index.md',
+            '/interview/vue/ssr/index.md',
+            '/interview/vue/dirStructure/index.md',
+            '/interview/vue/permManage/index.md',
+            '/interview/vue/crossDomain/index.md',
+            '/interview/vue/handleFault/index.md',
+            '/interview/vue/deploy404/index.md',
           ],
         },
         {
-          text: '面试1',
+          text: 'Vue3',
           collapsible: false,
+          children: [
+            
+          ]
         }
       ],
     },
