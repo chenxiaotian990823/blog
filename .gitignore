@@ -3,4 +3,4 @@ echo '.temp' >> .gitignore
 echo '.cache' >> .gitignore
 
 # 忽略 .vuepress/dist 文件夹
-.vuepress/dist
+.vuepress/dist/

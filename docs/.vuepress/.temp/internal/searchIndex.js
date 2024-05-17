@@ -7,6 +7,21 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "实例",
+    "headers": [
+      {
+        "level": 2,
+        "title": "导航",
+        "slug": "导航",
+        "link": "#导航",
+        "children": []
+      }
+    ],
+    "path": "/examples/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "少凡",
     "headers": [
       {
@@ -40,21 +55,6 @@ export const searchIndex = [
       }
     ],
     "path": "/interview/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "实例",
-    "headers": [
-      {
-        "level": 2,
-        "title": "导航",
-        "slug": "导航",
-        "link": "#导航",
-        "children": []
-      }
-    ],
-    "path": "/examples/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -116,13 +116,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "时间转换",
-    "headers": [],
-    "path": "/examples/timeConversion/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "流式应答",
     "headers": [],
     "path": "/examples/streamResp/",
@@ -130,38 +123,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Vue组件之间的通信方式都有哪些？",
-    "headers": [
-      {
-        "level": 2,
-        "title": "组件间通信的分类",
-        "slug": "组件间通信的分类",
-        "link": "#组件间通信的分类",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "组件间通信的方案",
-        "slug": "组件间通信的方案",
-        "link": "#组件间通信的方案",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "小结",
-        "slug": "小结",
-        "link": "#小结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考文献",
-        "slug": "参考文献",
-        "link": "#参考文献",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/compConmute/",
+    "title": "时间转换",
+    "headers": [],
+    "path": "/examples/timeConversion/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -260,6 +224,42 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Vue组件之间的通信方式都有哪些？",
+    "headers": [
+      {
+        "level": 2,
+        "title": "组件间通信的分类",
+        "slug": "组件间通信的分类",
+        "link": "#组件间通信的分类",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "组件间通信的方案",
+        "slug": "组件间通信的方案",
+        "link": "#组件间通信的方案",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "小结",
+        "slug": "小结",
+        "link": "#小结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/compConmute/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Vue中组件和插件有什么区别？",
     "headers": [
       {
@@ -318,28 +318,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "为什么data属性是一个函数而不是一个对象？",
-    "headers": [
-      {
-        "level": 2,
-        "title": "实例和组件定义 data 的区别",
-        "slug": "实例和组件定义-data-的区别",
-        "link": "#实例和组件定义-data-的区别",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "结论",
-        "slug": "结论",
-        "link": "#结论",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/dataObject/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Vue项目中你是如何解决跨域的呢？",
     "headers": [
       {
@@ -377,38 +355,24 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "你了解vue的diff算法吗？说说看",
+    "title": "为什么data属性是一个函数而不是一个对象？",
     "headers": [
       {
         "level": 2,
-        "title": "是什么",
-        "slug": "是什么",
-        "link": "#是什么",
+        "title": "实例和组件定义 data 的区别",
+        "slug": "实例和组件定义-data-的区别",
+        "link": "#实例和组件定义-data-的区别",
         "children": []
       },
       {
         "level": 2,
-        "title": "比较方式",
-        "slug": "比较方式",
-        "link": "#比较方式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "小结",
-        "slug": "小结",
-        "link": "#小结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考文献",
-        "slug": "参考文献",
-        "link": "#参考文献",
+        "title": "结论",
+        "slug": "结论",
+        "link": "#结论",
         "children": []
       }
     ],
-    "path": "/interview/vue/diff/",
+    "path": "/interview/vue/dataObject/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -464,20 +428,20 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "说下你的vue项目的目录结构，如果是大型项目你该怎么划分结构和划分组件呢？",
+    "title": "你了解vue的diff算法吗？说说看",
     "headers": [
       {
         "level": 2,
-        "title": "为什么要划分",
-        "slug": "为什么要划分",
-        "link": "#为什么要划分",
+        "title": "是什么",
+        "slug": "是什么",
+        "link": "#是什么",
         "children": []
       },
       {
         "level": 2,
-        "title": "目录结构",
-        "slug": "目录结构",
-        "link": "#目录结构",
+        "title": "比较方式",
+        "slug": "比较方式",
+        "link": "#比较方式",
         "children": []
       },
       {
@@ -495,7 +459,7 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/interview/vue/dirStructure/",
+    "path": "/interview/vue/diff/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -532,6 +496,42 @@ export const searchIndex = [
       }
     ],
     "path": "/interview/vue/directives/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "说下你的vue项目的目录结构，如果是大型项目你该怎么划分结构和划分组件呢？",
+    "headers": [
+      {
+        "level": 2,
+        "title": "为什么要划分",
+        "slug": "为什么要划分",
+        "link": "#为什么要划分",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "目录结构",
+        "slug": "目录结构",
+        "link": "#目录结构",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "小结",
+        "slug": "小结",
+        "link": "#小结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/dirStructure/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -631,6 +631,28 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Vue实例挂载的过程",
+    "headers": [
+      {
+        "level": 2,
+        "title": "结论",
+        "slug": "结论",
+        "link": "#结论",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/instanceMount/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "vue介绍",
     "headers": [
       {
@@ -704,28 +726,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Vue实例挂载的过程",
-    "headers": [
-      {
-        "level": 2,
-        "title": "结论",
-        "slug": "结论",
-        "link": "#结论",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考文献",
-        "slug": "参考文献",
-        "link": "#参考文献",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/instanceMount/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "说说你对keep-alive的理解是什么？",
     "headers": [
       {
@@ -758,6 +758,50 @@ export const searchIndex = [
       }
     ],
     "path": "/interview/vue/keepalive/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Vue生命周期",
+    "headers": [
+      {
+        "level": 2,
+        "title": "生命周期有哪些",
+        "slug": "生命周期有哪些",
+        "link": "#生命周期有哪些",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "生命周期整体流程",
+        "slug": "生命周期整体流程",
+        "link": "#生命周期整体流程",
+        "children": [
+          {
+            "level": 3,
+            "title": "具体分析",
+            "slug": "具体分析",
+            "link": "#具体分析",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "题外话：数据请求在created和mouted的区别",
+        "slug": "题外话-数据请求在created和mouted的区别",
+        "link": "#题外话-数据请求在created和mouted的区别",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/lifeCycle/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -823,50 +867,6 @@ export const searchIndex = [
       }
     ],
     "path": "/interview/vue/mixin/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Vue生命周期",
-    "headers": [
-      {
-        "level": 2,
-        "title": "生命周期有哪些",
-        "slug": "生命周期有哪些",
-        "link": "#生命周期有哪些",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "生命周期整体流程",
-        "slug": "生命周期整体流程",
-        "link": "#生命周期整体流程",
-        "children": [
-          {
-            "level": 3,
-            "title": "具体分析",
-            "slug": "具体分析",
-            "link": "#具体分析",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "题外话：数据请求在created和mouted的区别",
-        "slug": "题外话-数据请求在created和mouted的区别",
-        "link": "#题外话-数据请求在created和mouted的区别",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考文献",
-        "slug": "参考文献",
-        "link": "#参考文献",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/lifeCycle/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -939,35 +939,6 @@ export const searchIndex = [
       }
     ],
     "path": "/interview/vue/modifiers/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Vue.observable你有了解过吗？说说看",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Observable 是什么",
-        "slug": "observable-是什么",
-        "link": "#observable-是什么",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "使用场景",
-        "slug": "使用场景",
-        "link": "#使用场景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考文献",
-        "slug": "参考文献",
-        "link": "#参考文献",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/observable/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1074,6 +1045,35 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Vue.observable你有了解过吗？说说看",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Observable 是什么",
+        "slug": "observable-是什么",
+        "link": "#observable-是什么",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "使用场景",
+        "slug": "使用场景",
+        "link": "#使用场景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/observable/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "说说你对slot的理解？slot使用场景有哪些？",
     "headers": [
       {
@@ -1113,6 +1113,50 @@ export const searchIndex = [
       }
     ],
     "path": "/interview/vue/slot/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "SPA首屏加载速度慢的怎么解决？",
+    "headers": [
+      {
+        "level": 2,
+        "title": "什么是首屏加载",
+        "slug": "什么是首屏加载",
+        "link": "#什么是首屏加载",
+        "children": [
+          {
+            "level": 3,
+            "title": "关于计算首屏时间",
+            "slug": "关于计算首屏时间",
+            "link": "#关于计算首屏时间",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "加载慢的原因",
+        "slug": "加载慢的原因",
+        "link": "#加载慢的原因",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "解决方案",
+        "slug": "解决方案",
+        "link": "#解决方案",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/slowLoading/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1168,101 +1212,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "SPA首屏加载速度慢的怎么解决？",
-    "headers": [
-      {
-        "level": 2,
-        "title": "什么是首屏加载",
-        "slug": "什么是首屏加载",
-        "link": "#什么是首屏加载",
-        "children": [
-          {
-            "level": 3,
-            "title": "关于计算首屏时间",
-            "slug": "关于计算首屏时间",
-            "link": "#关于计算首屏时间",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "加载慢的原因",
-        "slug": "加载慢的原因",
-        "link": "#加载慢的原因",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解决方案",
-        "slug": "解决方案",
-        "link": "#解决方案",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考文献",
-        "slug": "参考文献",
-        "link": "#参考文献",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/slowLoading/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "SSR解决了什么问题？有做过SSR吗？你是怎么做的？",
-    "headers": [
-      {
-        "level": 2,
-        "title": "是什么",
-        "slug": "是什么",
-        "link": "#是什么",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解决了什么",
-        "slug": "解决了什么",
-        "link": "#解决了什么",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/ssr/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "为什么Vue中的v-if和v-for不建议一起使用",
-    "headers": [
-      {
-        "level": 2,
-        "title": "作用",
-        "slug": "作用",
-        "link": "#作用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "优先级",
-        "slug": "优先级",
-        "link": "#优先级",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "注意事项",
-        "slug": "注意事项",
-        "link": "#注意事项",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/vifvfor/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "双向数据绑定是什么",
     "headers": [
       {
@@ -1296,6 +1245,57 @@ export const searchIndex = [
       }
     ],
     "path": "/interview/vue/twowayBind/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "为什么Vue中的v-if和v-for不建议一起使用",
+    "headers": [
+      {
+        "level": 2,
+        "title": "作用",
+        "slug": "作用",
+        "link": "#作用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "优先级",
+        "slug": "优先级",
+        "link": "#优先级",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "注意事项",
+        "slug": "注意事项",
+        "link": "#注意事项",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/vifvfor/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "SSR解决了什么问题？有做过SSR吗？你是怎么做的？",
+    "headers": [
+      {
+        "level": 2,
+        "title": "是什么",
+        "slug": "是什么",
+        "link": "#是什么",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "解决了什么",
+        "slug": "解决了什么",
+        "link": "#解决了什么",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/ssr/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1365,6 +1365,42 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "你知道vue中key的原理吗？说说你对它的理解",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Key是什么",
+        "slug": "key是什么",
+        "link": "#key是什么",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "设置key与不设置key区别",
+        "slug": "设置key与不设置key区别",
+        "link": "#设置key与不设置key区别",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "设置key值一定能提高diff效率吗？",
+        "slug": "设置key值一定能提高diff效率吗",
+        "link": "#设置key值一定能提高diff效率吗",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/vuekey/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "动态给vue的data添加一个新的属性时会发生什么？怎样解决？",
     "headers": [
       {
@@ -1423,42 +1459,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "你知道vue中key的原理吗？说说你对它的理解",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Key是什么",
-        "slug": "key是什么",
-        "link": "#key是什么",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "设置key与不设置key区别",
-        "slug": "设置key与不设置key区别",
-        "link": "#设置key与不设置key区别",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "设置key值一定能提高diff效率吗？",
-        "slug": "设置key值一定能提高diff效率吗",
-        "link": "#设置key值一定能提高diff效率吗",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考文献",
-        "slug": "参考文献",
-        "link": "#参考文献",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/vuekey/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -1466,16 +1466,3 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}
