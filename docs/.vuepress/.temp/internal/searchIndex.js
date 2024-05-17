@@ -166,50 +166,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "为什么data属性是一个函数而不是一个对象？",
-    "headers": [
-      {
-        "level": 2,
-        "title": "实例和组件定义 data 的区别",
-        "slug": "实例和组件定义-data-的区别",
-        "link": "#实例和组件定义-data-的区别",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "结论",
-        "slug": "结论",
-        "link": "#结论",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/dataObject/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Vue实例挂载的过程",
-    "headers": [
-      {
-        "level": 2,
-        "title": "结论",
-        "slug": "结论",
-        "link": "#结论",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考文献",
-        "slug": "参考文献",
-        "link": "#参考文献",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/instanceMount/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Vue中组件和插件有什么区别？",
     "headers": [
       {
@@ -264,6 +220,50 @@ export const searchIndex = [
       }
     ],
     "path": "/interview/vue/compplug/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "为什么data属性是一个函数而不是一个对象？",
+    "headers": [
+      {
+        "level": 2,
+        "title": "实例和组件定义 data 的区别",
+        "slug": "实例和组件定义-data-的区别",
+        "link": "#实例和组件定义-data-的区别",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "结论",
+        "slug": "结论",
+        "link": "#结论",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/dataObject/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Vue实例挂载的过程",
+    "headers": [
+      {
+        "level": 2,
+        "title": "结论",
+        "slug": "结论",
+        "link": "#结论",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/instanceMount/",
     "pathLocale": "/",
     "extraFields": []
   },

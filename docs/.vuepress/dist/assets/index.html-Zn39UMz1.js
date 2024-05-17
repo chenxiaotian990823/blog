@@ -1,4 +1,4 @@
-import{_ as n,o as s,c as a,e}from"./app-DeRuMsH1.js";const p={},t=e(`<h1 id="正弦曲线" tabindex="-1"><a class="header-anchor" href="#正弦曲线"><span>正弦曲线</span></a></h1><div class="language-json line-numbers-mode" data-ext="json" data-title="json"><pre class="language-json"><code>let dataArr = <span class="token punctuation">[</span>
+import{_ as n,o as s,c as a,e}from"./app-B1os7eH8.js";const p={},t=e(`<h1 id="正弦曲线" tabindex="-1"><a class="header-anchor" href="#正弦曲线"><span>正弦曲线</span></a></h1><div class="language-json line-numbers-mode" data-ext="json" data-title="json"><pre class="language-json"><code>let dataArr = <span class="token punctuation">[</span>
   <span class="token number">64</span><span class="token punctuation">,</span>
   <span class="token number">62.42983442152262</span><span class="token punctuation">,</span>
   <span class="token number">60.86345150945406</span><span class="token punctuation">,</span>
