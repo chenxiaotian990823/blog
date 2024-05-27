@@ -85,6 +85,15 @@ export default defineUserConfig({
           ]
         },
         {
+          text: 'ES6',
+          collapsible: false,
+          children: [
+            '/interview/es6/varletconst/index.md',
+            '/interview/es6/arrExtend/index.md',
+            '/interview/es6/objExtend/index.md',
+          ]
+        },
+        {
           text: 'uniapp',
           collapsible: false,
           children: [

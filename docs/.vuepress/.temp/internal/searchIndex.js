@@ -22,21 +22,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "面试",
-    "headers": [
-      {
-        "level": 2,
-        "title": "导航",
-        "slug": "导航",
-        "link": "#导航",
-        "children": []
-      }
-    ],
-    "path": "/interview/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "少凡",
     "headers": [
       {
@@ -55,6 +40,28 @@ export const searchIndex = [
       }
     ],
     "path": "/guide/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "面试",
+    "headers": [
+      {
+        "level": 2,
+        "title": "导航",
+        "slug": "导航",
+        "link": "#导航",
+        "children": []
+      }
+    ],
+    "path": "/interview/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "currying柯里化函数",
+    "headers": [],
+    "path": "/examples/curriedFunc/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -91,13 +98,6 @@ export const searchIndex = [
       }
     ],
     "path": "/examples/bindClass/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "currying柯里化函数",
-    "headers": [],
-    "path": "/examples/curriedFunc/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -208,6 +208,321 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "ES6中数组新增了哪些扩展？",
+    "headers": [
+      {
+        "level": 2,
+        "title": "扩展运算符的应用",
+        "slug": "扩展运算符的应用",
+        "link": "#扩展运算符的应用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "构造函数新增的方法",
+        "slug": "构造函数新增的方法",
+        "link": "#构造函数新增的方法",
+        "children": [
+          {
+            "level": 3,
+            "title": "Array.from()",
+            "slug": "array-from",
+            "link": "#array-from",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Array.of()",
+            "slug": "array-of",
+            "link": "#array-of",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "实例对象新增的方法",
+        "slug": "实例对象新增的方法",
+        "link": "#实例对象新增的方法",
+        "children": [
+          {
+            "level": 3,
+            "title": "copyWithin()",
+            "slug": "copywithin",
+            "link": "#copywithin",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "find()、findIndex()",
+            "slug": "find-、findindex",
+            "link": "#find-、findindex",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "fill()",
+            "slug": "fill",
+            "link": "#fill",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "entries()，keys()，values()",
+            "slug": "entries-keys-values",
+            "link": "#entries-keys-values",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "includes()",
+            "slug": "includes",
+            "link": "#includes",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "flat()，flatMap()",
+            "slug": "flat-flatmap",
+            "link": "#flat-flatmap",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "数组的空位",
+        "slug": "数组的空位",
+        "link": "#数组的空位",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "排序稳定性",
+        "slug": "排序稳定性",
+        "link": "#排序稳定性",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/es6/arrExtend/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "对象新增了哪些扩展？",
+    "headers": [
+      {
+        "level": 2,
+        "title": "属性的简写",
+        "slug": "属性的简写",
+        "link": "#属性的简写",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "属性名表达式",
+        "slug": "属性名表达式",
+        "link": "#属性名表达式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "super关键字",
+        "slug": "super关键字",
+        "link": "#super关键字",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "扩展运算符的应用",
+        "slug": "扩展运算符的应用",
+        "link": "#扩展运算符的应用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "属性的遍历",
+        "slug": "属性的遍历",
+        "link": "#属性的遍历",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "对象新增的方法",
+        "slug": "对象新增的方法",
+        "link": "#对象新增的方法",
+        "children": [
+          {
+            "level": 3,
+            "title": "Object.is()",
+            "slug": "object-is",
+            "link": "#object-is",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Object.assign()",
+            "slug": "object-assign",
+            "link": "#object-assign",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Object.getOwnPropertyDescriptors()",
+            "slug": "object-getownpropertydescriptors",
+            "link": "#object-getownpropertydescriptors",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Object.setPrototypeOf()",
+            "slug": "object-setprototypeof",
+            "link": "#object-setprototypeof",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Object.getPrototypeOf()",
+            "slug": "object-getprototypeof",
+            "link": "#object-getprototypeof",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Object.keys()",
+            "slug": "object-keys",
+            "link": "#object-keys",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Object.values()",
+            "slug": "object-values",
+            "link": "#object-values",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Object.entries()",
+            "slug": "object-entries",
+            "link": "#object-entries",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Object.fromEntries()",
+            "slug": "object-fromentries",
+            "link": "#object-fromentries",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/es6/objExtend/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "说说var、let、const之间的区别",
+    "headers": [
+      {
+        "level": 2,
+        "title": "var",
+        "slug": "var",
+        "link": "#var",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "let",
+        "slug": "let",
+        "link": "#let",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "const",
+        "slug": "const",
+        "link": "#const",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "区别",
+        "slug": "区别",
+        "link": "#区别",
+        "children": [
+          {
+            "level": 3,
+            "title": "变量提升",
+            "slug": "变量提升",
+            "link": "#变量提升",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "暂时性死区",
+            "slug": "暂时性死区",
+            "link": "#暂时性死区",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "块级作用域",
+            "slug": "块级作用域",
+            "link": "#块级作用域",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "重复声明",
+            "slug": "重复声明",
+            "link": "#重复声明",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "修改声明的变量",
+            "slug": "修改声明的变量",
+            "link": "#修改声明的变量",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "使用",
+            "slug": "使用",
+            "link": "#使用",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/es6/varletconst/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "uniapp 应用启动onLaunch方法，改为同步，执行后再执行页面加载onLoad方法",
     "headers": [
       {
@@ -277,42 +592,6 @@ export const searchIndex = [
       }
     ],
     "path": "/interview/uniapp/onLaunch/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Vue组件之间的通信方式都有哪些？",
-    "headers": [
-      {
-        "level": 2,
-        "title": "组件间通信的分类",
-        "slug": "组件间通信的分类",
-        "link": "#组件间通信的分类",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "组件间通信的方案",
-        "slug": "组件间通信的方案",
-        "link": "#组件间通信的方案",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "小结",
-        "slug": "小结",
-        "link": "#小结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考文献",
-        "slug": "参考文献",
-        "link": "#参考文献",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/compConmute/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -407,6 +686,42 @@ export const searchIndex = [
       }
     ],
     "path": "/interview/vue/axios/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Vue组件之间的通信方式都有哪些？",
+    "headers": [
+      {
+        "level": 2,
+        "title": "组件间通信的分类",
+        "slug": "组件间通信的分类",
+        "link": "#组件间通信的分类",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "组件间通信的方案",
+        "slug": "组件间通信的方案",
+        "link": "#组件间通信的方案",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "小结",
+        "slug": "小结",
+        "link": "#小结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/compConmute/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -913,50 +1228,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Vue生命周期",
-    "headers": [
-      {
-        "level": 2,
-        "title": "生命周期有哪些",
-        "slug": "生命周期有哪些",
-        "link": "#生命周期有哪些",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "生命周期整体流程",
-        "slug": "生命周期整体流程",
-        "link": "#生命周期整体流程",
-        "children": [
-          {
-            "level": 3,
-            "title": "具体分析",
-            "slug": "具体分析",
-            "link": "#具体分析",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "题外话：数据请求在created和mouted的区别",
-        "slug": "题外话-数据请求在created和mouted的区别",
-        "link": "#题外话-数据请求在created和mouted的区别",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考文献",
-        "slug": "参考文献",
-        "link": "#参考文献",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/lifeCycle/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "说说你对vue的mixin的理解，有什么应用场景？",
     "headers": [
       {
@@ -1018,6 +1289,50 @@ export const searchIndex = [
       }
     ],
     "path": "/interview/vue/mixin/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Vue生命周期",
+    "headers": [
+      {
+        "level": 2,
+        "title": "生命周期有哪些",
+        "slug": "生命周期有哪些",
+        "link": "#生命周期有哪些",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "生命周期整体流程",
+        "slug": "生命周期整体流程",
+        "link": "#生命周期整体流程",
+        "children": [
+          {
+            "level": 3,
+            "title": "具体分析",
+            "slug": "具体分析",
+            "link": "#具体分析",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "题外话：数据请求在created和mouted的区别",
+        "slug": "题外话-数据请求在created和mouted的区别",
+        "link": "#题外话-数据请求在created和mouted的区别",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/lifeCycle/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1160,49 +1475,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "说说你对slot的理解？slot使用场景有哪些？",
-    "headers": [
-      {
-        "level": 2,
-        "title": "slot 是什么？",
-        "slug": "slot-是什么",
-        "link": "#slot-是什么",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "使用场景",
-        "slug": "使用场景",
-        "link": "#使用场景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "分类",
-        "slug": "分类",
-        "link": "#分类",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "小结：",
-        "slug": "小结",
-        "link": "#小结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考文献",
-        "slug": "参考文献",
-        "link": "#参考文献",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/slot/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "vue要做权限管理该怎么做？如果控制到按钮级别的权限怎么做？",
     "headers": [
       {
@@ -1264,6 +1536,49 @@ export const searchIndex = [
       }
     ],
     "path": "/interview/vue/permManage/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "说说你对slot的理解？slot使用场景有哪些？",
+    "headers": [
+      {
+        "level": 2,
+        "title": "slot 是什么？",
+        "slug": "slot-是什么",
+        "link": "#slot-是什么",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "使用场景",
+        "slug": "使用场景",
+        "link": "#使用场景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "分类",
+        "slug": "分类",
+        "link": "#分类",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "小结：",
+        "slug": "小结",
+        "link": "#小结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/slot/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1422,35 +1737,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "为什么Vue中的v-if和v-for不建议一起使用",
-    "headers": [
-      {
-        "level": 2,
-        "title": "作用",
-        "slug": "作用",
-        "link": "#作用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "优先级",
-        "slug": "优先级",
-        "link": "#优先级",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "注意事项",
-        "slug": "注意事项",
-        "link": "#注意事项",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/vifvfor/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "什么是虚拟DOM？如何实现一个虚拟DOM？说说你的思路",
     "headers": [
       {
@@ -1476,6 +1762,35 @@ export const searchIndex = [
       }
     ],
     "path": "/interview/vue/virtualDOM/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "为什么Vue中的v-if和v-for不建议一起使用",
+    "headers": [
+      {
+        "level": 2,
+        "title": "作用",
+        "slug": "作用",
+        "link": "#作用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "优先级",
+        "slug": "优先级",
+        "link": "#优先级",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "注意事项",
+        "slug": "注意事项",
+        "link": "#注意事项",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/vifvfor/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1610,50 +1925,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Vue3.0的设计目标是什么？做了哪些优化",
-    "headers": [
-      {
-        "level": 2,
-        "title": "设计目标",
-        "slug": "设计目标",
-        "link": "#设计目标",
-        "children": [
-          {
-            "level": 3,
-            "title": "更小",
-            "slug": "更小",
-            "link": "#更小",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "更快",
-            "slug": "更快",
-            "link": "#更快",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "更友好",
-            "slug": "更友好",
-            "link": "#更友好",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "参考文献",
-        "slug": "参考文献",
-        "link": "#参考文献",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue3/introduce/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "组合函数",
     "headers": [
       {
@@ -1709,6 +1980,50 @@ export const searchIndex = [
       }
     ],
     "path": "/interview/vue3/compFunc/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Vue3.0的设计目标是什么？做了哪些优化",
+    "headers": [
+      {
+        "level": 2,
+        "title": "设计目标",
+        "slug": "设计目标",
+        "link": "#设计目标",
+        "children": [
+          {
+            "level": 3,
+            "title": "更小",
+            "slug": "更小",
+            "link": "#更小",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "更快",
+            "slug": "更快",
+            "link": "#更快",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "更友好",
+            "slug": "更友好",
+            "link": "#更友好",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue3/introduce/",
     "pathLocale": "/",
     "extraFields": []
   },

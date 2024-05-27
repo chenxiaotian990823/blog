@@ -39,5 +39,9 @@ title: 面试
 - <b>Vue3</b>
   - [Vue3.0的设计目标是什么？做了哪些优化](/interview/vue3/introduce/index.md)
   - [组合函数](/interview/vue3/compFunc/index.md)
+- <b>ES6</b>
+  - [Vue3.0的设计目标是什么？做了哪些优化](/interview/es6/varletconst/index.md)
+  - [ES6中数组新增了哪些扩展？](/interview/es6/arrExtend/index.md)
+  - [ES6中对象新增了哪些扩展？](/interview/es6/objExtend/index.md)
 - <b>uniapp</b>
   - [uniapp 应用启动onLaunch方法，改为同步，执行后再执行页面加载onLoad方法](/interview/uniapp/onLaunch/index.md)

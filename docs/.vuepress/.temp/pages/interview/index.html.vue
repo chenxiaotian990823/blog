@@ -40,6 +40,13 @@
 <li><RouteLink to="/interview/vue3/compFunc/">组合函数</RouteLink></li>
 </ul>
 </li>
+<li><b>ES6</b>
+<ul>
+<li><RouteLink to="/interview/es6/varletconst/">Vue3.0的设计目标是什么？做了哪些优化</RouteLink></li>
+<li><RouteLink to="/interview/es6/arrExtend/">ES6中数组新增了哪些扩展？</RouteLink></li>
+<li><RouteLink to="/interview/es6/objExtend/">ES6中对象新增了哪些扩展？</RouteLink></li>
+</ul>
+</li>
 <li><b>uniapp</b>
 <ul>
 <li><RouteLink to="/interview/uniapp/onLaunch/">uniapp 应用启动onLaunch方法，改为同步，执行后再执行页面加载onLoad方法</RouteLink></li>
