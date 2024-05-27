@@ -22,6 +22,21 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "面试",
+    "headers": [
+      {
+        "level": 2,
+        "title": "导航",
+        "slug": "导航",
+        "link": "#导航",
+        "children": []
+      }
+    ],
+    "path": "/interview/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "少凡",
     "headers": [
       {
@@ -40,21 +55,6 @@ export const searchIndex = [
       }
     ],
     "path": "/guide/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "面试",
-    "headers": [
-      {
-        "level": 2,
-        "title": "导航",
-        "slug": "导航",
-        "link": "#导航",
-        "children": []
-      }
-    ],
-    "path": "/interview/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -102,6 +102,84 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "高德地图 js-sdk 的图标搜集",
+    "headers": [
+      {
+        "level": 2,
+        "title": "小汽车",
+        "slug": "小汽车",
+        "link": "#小汽车",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "黑色标记物",
+        "slug": "黑色标记物",
+        "link": "#黑色标记物",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "透明 ABCD",
+        "slug": "透明-abcd",
+        "link": "#透明-abcd",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "红色圆点",
+        "slug": "红色圆点",
+        "link": "#红色圆点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "红色 marker",
+        "slug": "红色-marker",
+        "link": "#红色-marker",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "红色旗标",
+        "slug": "红色旗标",
+        "link": "#红色旗标",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "合集",
+        "slug": "合集",
+        "link": "#合集",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "带数字的蓝色图标",
+        "slug": "带数字的蓝色图标",
+        "link": "#带数字的蓝色图标",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "起点",
+        "slug": "起点",
+        "link": "#起点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "终点",
+        "slug": "终点",
+        "link": "#终点",
+        "children": []
+      }
+    ],
+    "path": "/examples/gdicons/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "计算索引处百分比",
     "headers": [],
     "path": "/examples/getPercentageAtIndex/",
@@ -126,6 +204,115 @@ export const searchIndex = [
     "title": "时间转换",
     "headers": [],
     "path": "/examples/timeConversion/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "uniapp 应用启动onLaunch方法，改为同步，执行后再执行页面加载onLoad方法",
+    "headers": [
+      {
+        "level": 2,
+        "title": "问题描述",
+        "slug": "问题描述",
+        "link": "#问题描述",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "方案一",
+        "slug": "方案一",
+        "link": "#方案一",
+        "children": [
+          {
+            "level": 3,
+            "title": "main.js 添加如下代码",
+            "slug": "main-js-添加如下代码",
+            "link": "#main-js-添加如下代码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "应用启动时，设置需要等待的逻辑",
+            "slug": "应用启动时-设置需要等待的逻辑",
+            "link": "#应用启动时-设置需要等待的逻辑",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "在页面 onLoad 中增加等待代码 await this.$onLaunched",
+            "slug": "在页面-onload-中增加等待代码-await-this-onlaunched",
+            "link": "#在页面-onload-中增加等待代码-await-this-onlaunched",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "方案二",
+        "slug": "方案二",
+        "link": "#方案二",
+        "children": [
+          {
+            "level": 3,
+            "title": "main.js",
+            "slug": "main-js",
+            "link": "#main-js",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "页面",
+            "slug": "页面",
+            "link": "#页面",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/uniapp/onLaunch/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Vue组件之间的通信方式都有哪些？",
+    "headers": [
+      {
+        "level": 2,
+        "title": "组件间通信的分类",
+        "slug": "组件间通信的分类",
+        "link": "#组件间通信的分类",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "组件间通信的方案",
+        "slug": "组件间通信的方案",
+        "link": "#组件间通信的方案",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "小结",
+        "slug": "小结",
+        "link": "#小结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/compConmute/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -220,42 +407,6 @@ export const searchIndex = [
       }
     ],
     "path": "/interview/vue/axios/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Vue组件之间的通信方式都有哪些？",
-    "headers": [
-      {
-        "level": 2,
-        "title": "组件间通信的分类",
-        "slug": "组件间通信的分类",
-        "link": "#组件间通信的分类",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "组件间通信的方案",
-        "slug": "组件间通信的方案",
-        "link": "#组件间通信的方案",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "小结",
-        "slug": "小结",
-        "link": "#小结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考文献",
-        "slug": "参考文献",
-        "link": "#参考文献",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/compConmute/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -980,71 +1131,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "vue要做权限管理该怎么做？如果控制到按钮级别的权限怎么做？",
-    "headers": [
-      {
-        "level": 2,
-        "title": "是什么",
-        "slug": "是什么",
-        "link": "#是什么",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "如何做",
-        "slug": "如何做",
-        "link": "#如何做",
-        "children": [
-          {
-            "level": 3,
-            "title": "接口权限",
-            "slug": "接口权限",
-            "link": "#接口权限",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "按钮权限",
-            "slug": "按钮权限",
-            "link": "#按钮权限",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "菜单权限",
-            "slug": "菜单权限",
-            "link": "#菜单权限",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "路由权限",
-            "slug": "路由权限",
-            "link": "#路由权限",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "小结",
-        "slug": "小结",
-        "link": "#小结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "参考文献",
-        "slug": "参考文献",
-        "link": "#参考文献",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/permManage/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Vue.observable你有了解过吗？说说看",
     "headers": [
       {
@@ -1113,6 +1199,71 @@ export const searchIndex = [
       }
     ],
     "path": "/interview/vue/slot/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vue要做权限管理该怎么做？如果控制到按钮级别的权限怎么做？",
+    "headers": [
+      {
+        "level": 2,
+        "title": "是什么",
+        "slug": "是什么",
+        "link": "#是什么",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "如何做",
+        "slug": "如何做",
+        "link": "#如何做",
+        "children": [
+          {
+            "level": 3,
+            "title": "接口权限",
+            "slug": "接口权限",
+            "link": "#接口权限",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "按钮权限",
+            "slug": "按钮权限",
+            "link": "#按钮权限",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "菜单权限",
+            "slug": "菜单权限",
+            "link": "#菜单权限",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "路由权限",
+            "slug": "路由权限",
+            "link": "#路由权限",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "小结",
+        "slug": "小结",
+        "link": "#小结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/permManage/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1212,6 +1363,28 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "SSR解决了什么问题？有做过SSR吗？你是怎么做的？",
+    "headers": [
+      {
+        "level": 2,
+        "title": "是什么",
+        "slug": "是什么",
+        "link": "#是什么",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "解决了什么",
+        "slug": "解决了什么",
+        "link": "#解决了什么",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue/ssr/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "双向数据绑定是什么",
     "headers": [
       {
@@ -1274,28 +1447,6 @@ export const searchIndex = [
       }
     ],
     "path": "/interview/vue/vifvfor/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "SSR解决了什么问题？有做过SSR吗？你是怎么做的？",
-    "headers": [
-      {
-        "level": 2,
-        "title": "是什么",
-        "slug": "是什么",
-        "link": "#是什么",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解决了什么",
-        "slug": "解决了什么",
-        "link": "#解决了什么",
-        "children": []
-      }
-    ],
-    "path": "/interview/vue/ssr/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1459,6 +1610,109 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Vue3.0的设计目标是什么？做了哪些优化",
+    "headers": [
+      {
+        "level": 2,
+        "title": "设计目标",
+        "slug": "设计目标",
+        "link": "#设计目标",
+        "children": [
+          {
+            "level": 3,
+            "title": "更小",
+            "slug": "更小",
+            "link": "#更小",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "更快",
+            "slug": "更快",
+            "link": "#更快",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "更友好",
+            "slug": "更友好",
+            "link": "#更友好",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "参考文献",
+        "slug": "参考文献",
+        "link": "#参考文献",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue3/introduce/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "组合函数",
+    "headers": [
+      {
+        "level": 2,
+        "title": "例子",
+        "slug": "例子",
+        "link": "#例子",
+        "children": [
+          {
+            "level": 3,
+            "title": "解释",
+            "slug": "解释",
+            "link": "#解释",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "onMounted 和 onUnmounted 不是 vue 的生命周期吗？为嘛可以用到这里",
+            "slug": "onmounted-和-onunmounted-不是-vue-的生命周期吗-为嘛可以用到这里",
+            "link": "#onmounted-和-onunmounted-不是-vue-的生命周期吗-为嘛可以用到这里",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "其他例子",
+        "slug": "其他例子",
+        "link": "#其他例子",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "我如果要做一个图片懒加载，需要怎么做",
+        "slug": "我如果要做一个图片懒加载-需要怎么做",
+        "link": "#我如果要做一个图片懒加载-需要怎么做",
+        "children": [
+          {
+            "level": 3,
+            "title": "题外话，可以用自定义指令实现懒加载吗？",
+            "slug": "题外话-可以用自定义指令实现懒加载吗",
+            "link": "#题外话-可以用自定义指令实现懒加载吗",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "那这些组合复用函数，一般放在哪个目录下呢",
+        "slug": "那这些组合复用函数-一般放在哪个目录下呢",
+        "link": "#那这些组合复用函数-一般放在哪个目录下呢",
+        "children": []
+      }
+    ],
+    "path": "/interview/vue3/compFunc/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -1466,3 +1720,16 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

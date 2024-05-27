@@ -6,6 +6,7 @@
 <li><RouteLink to="/examples/getPercentageAtIndex/">计算索引处百分比</RouteLink></li>
 <li><RouteLink to="/examples/timeConversion/">时间转换</RouteLink></li>
 <li><RouteLink to="/examples/bindClass/">class的动态绑定</RouteLink></li>
+<li><RouteLink to="/examples/gdicons/">高德地图 js-sdk 的图标搜集</RouteLink></li>
 </ul>
 </div></template>
 

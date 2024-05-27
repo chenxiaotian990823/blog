@@ -34,7 +34,8 @@ export default defineUserConfig({
             '/examples/curriedFunc/index.md',
             '/examples/getPercentageAtIndex/index.md',
             '/examples/timeConversion/index.md',
-            '/examples/bindClass/index.md'
+            '/examples/bindClass/index.md',
+            '/examples/gdicons/index.md',
           ],
         },
       ],
@@ -79,7 +80,15 @@ export default defineUserConfig({
           text: 'Vue3',
           collapsible: false,
           children: [
-            
+            '/interview/vue3/introduce/index.md',
+            '/interview/vue3/compFunc/index.md',
+          ]
+        },
+        {
+          text: 'uniapp',
+          collapsible: false,
+          children: [
+            '/interview/uniapp/onLaunch/index.md',
           ]
         }
       ],

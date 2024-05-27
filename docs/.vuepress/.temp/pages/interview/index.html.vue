@@ -34,7 +34,17 @@
 <li><RouteLink to="/interview/vue/deploy404/">vue项目本地开发完成后部署到服务器后报404是什么原因呢？</RouteLink></li>
 </ul>
 </li>
-<li><b>Vue3</b></li>
+<li><b>Vue3</b>
+<ul>
+<li><RouteLink to="/interview/vue3/introduce/">Vue3.0的设计目标是什么？做了哪些优化</RouteLink></li>
+<li><RouteLink to="/interview/vue3/compFunc/">组合函数</RouteLink></li>
+</ul>
+</li>
+<li><b>uniapp</b>
+<ul>
+<li><RouteLink to="/interview/uniapp/onLaunch/">uniapp 应用启动onLaunch方法，改为同步，执行后再执行页面加载onLoad方法</RouteLink></li>
+</ul>
+</li>
 </ul>
 </div></template>
 

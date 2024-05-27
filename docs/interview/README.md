@@ -37,3 +37,7 @@ title: 面试
   - [你是怎么处理vue项目中的错误的？](/interview/vue/handleFault/index.md)
   - [vue项目本地开发完成后部署到服务器后报404是什么原因呢？](/interview/vue/deploy404/index.md)
 - <b>Vue3</b>
+  - [Vue3.0的设计目标是什么？做了哪些优化](/interview/vue3/introduce/index.md)
+  - [组合函数](/interview/vue3/compFunc/index.md)
+- <b>uniapp</b>
+  - [uniapp 应用启动onLaunch方法，改为同步，执行后再执行页面加载onLoad方法](/interview/uniapp/onLaunch/index.md)
