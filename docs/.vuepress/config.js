@@ -91,6 +91,8 @@ export default defineUserConfig({
             '/interview/es6/varletconst/index.md',
             '/interview/es6/arrExtend/index.md',
             '/interview/es6/objExtend/index.md',
+            '/interview/es6/funExtend/index.md',
+            '/interview/es6/setmap/index.md',
           ]
         },
         {

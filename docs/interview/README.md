@@ -43,5 +43,7 @@ title: 面试
   - [Vue3.0的设计目标是什么？做了哪些优化](/interview/es6/varletconst/index.md)
   - [ES6中数组新增了哪些扩展？](/interview/es6/arrExtend/index.md)
   - [ES6中对象新增了哪些扩展？](/interview/es6/objExtend/index.md)
+  - [ES6中函数新增了哪些扩展？](/interview/es6/funExtend/index.md)
+  - [你是怎么理解ES6新增Set、Map两种数据结构的？](/interview/es6/setmap/index.md)
 - <b>uniapp</b>
   - [uniapp 应用启动onLaunch方法，改为同步，执行后再执行页面加载onLoad方法](/interview/uniapp/onLaunch/index.md)

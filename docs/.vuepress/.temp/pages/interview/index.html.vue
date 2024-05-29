@@ -45,6 +45,8 @@
 <li><RouteLink to="/interview/es6/varletconst/">Vue3.0的设计目标是什么？做了哪些优化</RouteLink></li>
 <li><RouteLink to="/interview/es6/arrExtend/">ES6中数组新增了哪些扩展？</RouteLink></li>
 <li><RouteLink to="/interview/es6/objExtend/">ES6中对象新增了哪些扩展？</RouteLink></li>
+<li><RouteLink to="/interview/es6/funExtend/">ES6中函数新增了哪些扩展？</RouteLink></li>
+<li><RouteLink to="/interview/es6/setmap/">你是怎么理解ES6新增Set、Map两种数据结构的？</RouteLink></li>
 </ul>
 </li>
 <li><b>uniapp</b>
