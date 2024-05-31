@@ -45,5 +45,9 @@ title: 面试
   - [ES6中对象新增了哪些扩展？](/interview/es6/objExtend/index.md)
   - [ES6中函数新增了哪些扩展？](/interview/es6/funExtend/index.md)
   - [你是怎么理解ES6新增Set、Map两种数据结构的？](/interview/es6/setmap/index.md)
+  - [你是怎么理解ES6中 Promise的？使用场景？](/interview/es6/promise/index.md)
+  - [你是怎么理解ES6中 Generator的？使用场景？](/interview/es6/generator/index.md)
+  - [你是怎么理解ES6中Proxy的？使用场景?](/interview/es6/proxy/index.md)
+  - [你是怎么理解ES6中Module的？使用场景？](/interview/es6/module/index.md)
 - <b>uniapp</b>
   - [uniapp 应用启动onLaunch方法，改为同步，执行后再执行页面加载onLoad方法](/interview/uniapp/onLaunch/index.md)

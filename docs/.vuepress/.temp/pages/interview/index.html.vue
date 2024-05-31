@@ -47,6 +47,10 @@
 <li><RouteLink to="/interview/es6/objExtend/">ES6中对象新增了哪些扩展？</RouteLink></li>
 <li><RouteLink to="/interview/es6/funExtend/">ES6中函数新增了哪些扩展？</RouteLink></li>
 <li><RouteLink to="/interview/es6/setmap/">你是怎么理解ES6新增Set、Map两种数据结构的？</RouteLink></li>
+<li><RouteLink to="/interview/es6/promise/">你是怎么理解ES6中 Promise的？使用场景？</RouteLink></li>
+<li><RouteLink to="/interview/es6/generator/">你是怎么理解ES6中 Generator的？使用场景？</RouteLink></li>
+<li><RouteLink to="/interview/es6/proxy/">你是怎么理解ES6中Proxy的？使用场景?</RouteLink></li>
+<li><RouteLink to="/interview/es6/module/">你是怎么理解ES6中Module的？使用场景？</RouteLink></li>
 </ul>
 </li>
 <li><b>uniapp</b>

@@ -93,6 +93,10 @@ export default defineUserConfig({
             '/interview/es6/objExtend/index.md',
             '/interview/es6/funExtend/index.md',
             '/interview/es6/setmap/index.md',
+            '/interview/es6/promise/index.md',
+            '/interview/es6/generator/index.md',
+            '/interview/es6/proxy/index.md',
+            '/interview/es6/module/index.md',
           ]
         },
         {
